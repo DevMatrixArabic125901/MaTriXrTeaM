@@ -92,7 +92,7 @@ fi
 done
 ]])
 Runahmed:close()
-local RunWtN = io.open("WtN", 'w')
+local RunWtN = io.open("ahmed", 'w')
 RunWtN:write([[
 #!/usr/bin/env bash
 cd $HOME/ahmed
