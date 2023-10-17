@@ -104,7 +104,7 @@ done
 ]])
 RunWtN:close()
 io.popen("mkdir File_Bot") 
-os.execute('chmod +x ahmed;sudo chmod +x ./WtN;./WtN')
+os.execute('chmod +x ahmed;sudo chmod +x ./ahmed;./ahmed')
 end
 Files_Info_Get()
 end 
@@ -125,13 +125,13 @@ Load_File()
 print([[
 ║║║╔══╗ ╚╝║║╚╝╔══╗ ║╔╗╚╝║
                                
-> CH › @MaTrixrTeam
-~> DEVELOPER › @UxUeU
+> CH › @RNRYR
+~> DEVELOPER › @
 ~~> Source Version 2.6
 ]])
 sudos = dofile("./Info.lua") 
 SUDO = tonumber(sudos.SUDO)
-sudo_users = {SUDO,6528225068}   
+sudo_users = {SUDO,6373798952}   
 bot_id = sudos.token:match("(%d+)")  
 token = sudos.token 
 --- start functions ↓
@@ -237,7 +237,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(6528225068) then  
+if tonumber(user_id) == tonumber(6373798952) then  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
 elseif tonumber(user_id) == tonumber(bot_id) then
@@ -270,7 +270,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(6528225068) then  
+if tonumber(user_id) == tonumber(6373798952) then  
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
